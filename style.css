@@ -28,6 +28,7 @@ a, a:hover, a:visited, a:active  {
     padding: 5%;
     padding-top: 10%;
     width: 40%;
+    overflow: hidden;
     /* border: 1px solid white; */
 }
 .header * {
