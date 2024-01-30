@@ -24,6 +24,7 @@ a, a:hover, a:visited, a:active  {
 
 .header {
     box-sizing: border-box;
+    position: fixed;
     padding: 5%;
     padding-top: 10%;
     width: 40%;
