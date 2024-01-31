@@ -32,7 +32,7 @@ a, a:hover, a:visited, a:active  {
     /* border: 1px solid white; */
 }
 .header * {
-    margin: 1.5% 0%;
+    margin: 0% 0% 4% 0%;
 }
 h1 {
     font-size: 36px;
@@ -40,17 +40,51 @@ h1 {
 }
 h3 {
     line-height: 1.5em;
+    letter-spacing: .0625rem;
 }
 .header img {
     width: 35px;
-    /* box-sizing: border-box;
-    border: 1px solid white; */
 }
 #li img {
-    margin-left: 4px;
+    margin-left: 14px;
+}
+#res img {
+    margin-left: 10px;
 }
 #res {
     width: 33px;
     padding-bottom: 1px;
 }
+#email-row {
+    * {
+        display: inline-block;
+    }
+    img {
+        float: left;
+        padding-right: 15px;
+    }
+    h3 {
+        padding-top: 2px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width:760px) {
+
+}
+
+/* Tablet */
+@media only screen and (max-width:760px) {
+
+    /* INDEX */
+    /* .header {
+        padding-top: 12%;
+        width: 90%;
+        margin: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: relative;
+    } */
+}
+
 
