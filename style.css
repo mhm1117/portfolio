@@ -39,8 +39,8 @@ a, a:hover, a:visited, a:active  {
     max-width: 800px;
     /* border: 1px solid white; */
 }
-.header * {
-    margin: 0% 0% 4% 0%;
+.header > * {
+    padding: 0% 0% 4% 0%;
 }
 #intro {
     white-space: nowrap;
@@ -146,6 +146,9 @@ h1 {
         box-sizing: border-box;
         overflow: hidden;
         position: relative;
+        #info {
+            padding-bottom: 20%;
+        }
     }
     
     #photo {
