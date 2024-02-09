@@ -35,10 +35,15 @@ a, a:hover, a:visited, a:active  {
     padding-top: 10%;
     width: 40%;
     overflow: hidden;
+    min-width: 500px;
+    max-width: 800px;
     /* border: 1px solid white; */
 }
 .header * {
     margin: 0% 0% 4% 0%;
+}
+#intro {
+    white-space: nowrap;
 }
 h2 {
     font-size: 36px;
@@ -75,24 +80,28 @@ h3 {
     #email {
         padding-top: 2px;
     }
-    #email:hover {
+}
+#email-row:hover {
+    #email {
         border-bottom: 2px solid #eeefe9;
     }
 }
 
 /* Photo of Me */
 #photo {
-    box-sizing: border-box;
-    max-width: 340px;
-    margin-top: 4%;
-    margin-left: 65%;
-    border: 2px solid black;
+    position: fixed;
+    max-height: 70vh;
+    max-width: 33%;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 7%;
 }
 
 /* Scroll Down for Projects Button */
 #scroll-down {
     box-sizing: border-box;
     position: fixed;
+    bottom: 35px;
     left: 50%;
     transform: translate(-50%, 0);
     /* border: 1px solid white; */
@@ -126,16 +135,21 @@ h1 {
 
 }
 /* Tablet */
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:800px) {
 
     /* INDEX */
     .header {
         padding-top: 12%;
         width: 92%;
+        max-width: 500px;
         margin: auto;
         box-sizing: border-box;
         overflow: hidden;
         position: relative;
+    }
+    
+    #photo {
+        display: none;
     }
 }
 
