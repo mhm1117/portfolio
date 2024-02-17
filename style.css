@@ -28,6 +28,7 @@ a, a:hover, a:visited, a:active  {
     color: #091C26;
 }
 
+/*heading - intro + links*/
 .header {
     box-sizing: border-box;
     position: fixed;
@@ -139,7 +140,8 @@ h1 {
 
     /* INDEX */
     .header {
-        padding-top: 25%;
+        padding-top: 15%;
+        padding: 15% 5% 0 5%;
         width: 92%;
         max-width: 500px;
         margin: auto;
