@@ -1,4 +1,4 @@
-# portfolio
+# [Matilda Michel](matildamichel.com)
 
 colors: rgb(15 23 42)
 
