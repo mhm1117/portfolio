@@ -132,7 +132,7 @@ h1 {
 }
 
 /* Desktop */
-@media only screen and (min-width:760px) {
+@media only screen and (min-width:800px) {
 
 }
 /* Tablet */
@@ -141,7 +141,6 @@ h1 {
     /* INDEX */
     .header {
         padding-top: 15%;
-        padding: 15% 5% 0 5%;
         width: 92%;
         max-width: 500px;
         margin: auto;
