@@ -1,4 +1,4 @@
-# [Matilda Michel](matildamichel.com)
+# [Matilda Michel](https://www.matildamichel.com)
 
 colors: rgb(15 23 42)
 
