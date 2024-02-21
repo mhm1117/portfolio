@@ -4,9 +4,10 @@ TO-DO
 - [ ] create and style projects section **IN PROGRESS**
   - [x] finish sizing + spacing
   - [ ] add images + links to project pages(all done except need to fix StS img)
-  - [ ] add animation to imgs when hovered over
-  - [ ] add scrolling within separate sections
-- [ ] create images/descriptions/demos for projects 
+  - [x] add animation to imgs when hovered over
+  - [x] add scrolling within separate sections (see if can slow speed later - using js or transitions)
+  - [ ] increase size of project pics
+- [ ] create separate pages for projects 
   - [ ] School Projects
     - [ ] Wing It **(DONE: main img)**
     - [ ] ML Supervised Learning (comparison project) **(DONE: main img)**
