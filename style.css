@@ -35,6 +35,7 @@ a, a:hover, a:visited, a:active  {
 .scroller {
     overflow-y: scroll;
     scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 .scroller::-webkit-scrollbar {
     width: 0px;
@@ -152,8 +153,8 @@ h3 {
             flex-flow: column nowrap;
             img {
                 box-sizing: border-box;
-                max-width: 450px;
-                min-height: 295px;
+                width: 450px;
+                height: 295px;
                 margin-bottom: 10%;
                 border-radius: 15px;
                 border: solid 0px transparent;
@@ -163,6 +164,10 @@ h3 {
                 border: 10px solid transparent;
                 transition: all 0.2s ease-out;
                 border-radius: 25px;
+            }
+            #stsstats {
+                width: 450px;
+                height: 295px;
             }
         }
     }
@@ -176,7 +181,7 @@ h1 {
     padding-top: 5%;
     text-align: center;
 }
-#back {
+.back {
     position: fixed;
     width: 30px;
     margin: 20px 0 0 20px;
