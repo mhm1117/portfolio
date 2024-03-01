@@ -10,39 +10,64 @@
   </head>
   <body id="home" style="background-color: #091C26;">
     <main>
-        <div class="header">
-            <h2 id="intro">Hi there, my name is <br> Matilda Michel<!-- <a id="name" href="aboutme.html">Matilda Michel</a> -->.</h2> 
-            <h3 id="info" >I'm an aspiring Data and Software Engineer aiming for my first real industry experience while working on personal, passion projects to further my skills.</h3>
-            <div id="links">
-              <a id="git" href="https://github.com/stars/mhm1117/lists/projects" target="_blank">
-                <img src="assets/icons/github-icon.png" alt="git">
-              </a>
-              <a id="li" href="https://www.linkedin.com/in/matilda-michel-859751252/" target="_blank">
-                <img src="assets/icons/linkedin-icon.png" alt="li">
-              </a>
-              <a id="res" href="https://docs.google.com/document/d/e/2PACX-1vQhLLGkMFMYMVYLMTAwquj6cSFwExE-clgf-Dioc1RJPjcHUwl_EhvdrqQKUCLm32xTe8eHWKriVFvl/pub" target="_blank">
-                <img src="assets/icons/resume-icon.png" alt="res">
-              </a>
-            </div>
-            <div id="email-row">
-              <a href="mailto: mhmichel17@gmail.com" target="_blank">
-                <img src="assets/icons/email-icon.png" alt="mail">
-                <h3 id="email">
-                  mhmichel17@gmail.com
-                </h3>
-              </a>
-            </div>
+      <div class="header">
+          <h2 id="intro">Hi there, my name is <br> Matilda Michel.</h2> 
+          <h3 id="info" >I'm an aspiring Data and Software Engineer aiming for my first real industry experience while working on personal, passion projects to further my skills.</h3>
+          <div id="links">
+            <a id="git" href="https://github.com/stars/mhm1117/lists/projects" target="_blank">
+              <img src="assets/icons/github-icon.png" alt="git">
+            </a>
+            <a id="li" href="https://www.linkedin.com/in/matilda-michel-859751252/" target="_blank">
+              <img src="assets/icons/linkedin-icon.png" alt="li">
+            </a>
+            <a id="res" href="https://docs.google.com/document/d/e/2PACX-1vQhLLGkMFMYMVYLMTAwquj6cSFwExE-clgf-Dioc1RJPjcHUwl_EhvdrqQKUCLm32xTe8eHWKriVFvl/pub" target="_blank">
+              <img src="assets/icons/resume-icon.png" alt="res">
+            </a>
+          </div>
+          <div id="email-row">
+            <a href="mailto: mhmichel17@gmail.com" target="_blank">
+              <img src="assets/icons/email-icon.png" alt="mail">
+              <h3 id="email">
+                mhmichel17@gmail.com
+              </h3>
+            </a>
+          </div>
+      </div>
+      <img id="photo" src="assets/images/grad_photo.jpeg" alt="photo">
+      <div id="scroll-down">
+        <a id="toprojects" href="#projects-page">
+          <h3 id="scroll-down-title">Projects</h3>
+          <img id="down-arrow" src="assets/icons/down-arrow.png" alt="down">
+        </a>
+      </div> 
+      <div id="projects-page">
+        <div class="projects-div" id="school-projects">
+          <h2 class="section-title">School Projects</h2>
+          <div class="scroller">
+            <a class="project-link" href="pages/wingit.html">
+              <img id="wingit" src="assets/images/project-pics/projectpic-wingit2.png">
+            </a>
+            <a class="project-link" href="pages/modelcomp.html">
+              <img id="modelcomp" src="assets/images/project-pics/projectpic - cogs118a.png">
+            </a>
+            <a class="project-link" href="pages/factorscomp.html">
+              <img id="factorscomp" src="assets/images/project-pics/projectpic-cogs108.png">
+            </a>
+          </div>
         </div>
-        <img id="photo" src="assets/images/grad_photo.jpeg" alt="photo">
-        <!-- HIDE UNTIL IMPLEMENTED
-        <div id="scroll-down">
-          <a href="aboutme.html">
-            <h3 id="scroll-down-title">Projects</h3>
-            <img id="down-arrow" src="assets/icons/down-arrow.png" alt="down">
-          </a>
-        </div> 
-        -->
+        <div class="projects-div" id="personal-projects">
+          <h2 class="section-title">Personal Projects</h2>
+          <div class="scroller">
+            <a class="project-link" href="pages/sts-stats.html">
+              <img id="stsstats" src="assets/images/project-pics/projectpic-stsstats.png">
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
-	<!-- <script src="index.js"></script> -->
+	<script>
+    let test = document.getElementById("wingit");
+    console.log(test)
+  </script>
   </body>
 </html>
