@@ -214,6 +214,12 @@ h3 {
     #photo {
         display: none;
     }
+    #scroll-down {
+        display: none;
+    }
+    #projects-page * {
+        display: none;
+    }
 }
 
 @media only screen and (max-width:1000px) {
