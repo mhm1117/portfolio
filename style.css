@@ -174,17 +174,20 @@ h3 {
 }
 
 /* Project Pages */
-h1 {
-    font-size: 50px;
-}
-.ppage-title {
-    padding-top: 5%;
-    text-align: center;
-}
-.back {
-    position: fixed;
-    width: 30px;
-    margin: 20px 0 0 20px;
+.ppage {
+
+    h1 {
+        font-size: 50px;
+    }
+    .ppage-title {
+        padding-top: 5%;
+        text-align: center;
+    }
+    .back {
+        position: fixed;
+        width: 30px;
+        margin: 20px 0 0 20px;
+    }
 }
 
 /* Desktop */
@@ -210,6 +213,21 @@ h1 {
     
     #photo {
         display: none;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    #projects-page {
+
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .projects-div {
+            h2 {
+                display: none;
+            }
+        }
     }
 }
 
