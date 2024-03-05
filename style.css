@@ -211,6 +211,12 @@ h1 {
     #photo {
         display: none;
     }
+    #scroll-down {
+        display: none;
+    }
+    #projects-page * {
+        display: none;
+    }
 }
 
 
