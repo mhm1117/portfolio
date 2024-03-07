@@ -148,9 +148,37 @@ h3 {
             text-align: center;
             margin-bottom: 8%;
         }
-        div {
+        div {               /* scroller div for display projects */
             display: flex;
             flex-flow: column nowrap;
+            a {
+                position: relative;
+            }
+            a:hover {
+                img {
+                    transform: scale(0.97);
+                    /* border: 10px solid transparent; */
+                    transition: all 0.2s ease-out;
+                    background-color: black;
+                    opacity: 0.2;
+                }
+                .img-txt {
+                    display: initial;
+                }
+            }
+            .img-txt {
+                display: none;
+                text-align: center;
+                font-size: 2em;
+                color: #eeefe9;
+                font-weight: bolder;
+                line-height: 1.25em;
+                position: absolute;
+                top: 42%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                white-space: nowrap;
+            }
             img {
                 box-sizing: border-box;
                 width: 450px;
@@ -159,15 +187,6 @@ h3 {
                 border-radius: 15px;
                 border: solid 0px transparent;
                 transition: all 0.2s ease-out;
-            }
-            img:hover {
-                border: 10px solid transparent;
-                transition: all 0.2s ease-out;
-                border-radius: 25px;
-            }
-            #stsstats {
-                width: 450px;
-                height: 295px;
             }
         }
     }
