@@ -31,9 +31,6 @@ a, a:hover, a:visited, a:active  {
 .ppage * {
     color: #091C26;
 }
-.span-title {
-    color: #95A1F1;
-}
 
 .scroller {
     overflow-y: scroll;
@@ -203,6 +200,7 @@ h3 {
     .ppage-title {
         padding-top: 5rem;
         text-align: center;
+        margin-bottom: 5vh;
     }
     .back {
         position: fixed;
@@ -214,48 +212,71 @@ h3 {
         transition: all 0.1s;
     }
 
+    .pmockup {
+        /* border: 1px solid; */
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+    }
+
     .ppage-content {
+        line-height: 1.5em;
         font-size: 16px;
-        margin: 8vh auto 5vh auto;
+        margin: 5vh auto 5vh auto;
         box-sizing: border-box;
-        width: 80vw;
+        width: 60vw;
         min-height: 60vh;
-        border: 1px solid;
+        /* border: 1px solid; */
 
         display: grid;
         grid-template-columns: 2fr 1fr;
 
         .pcontent-side, .pcontent-main {
-            border: 1px solid;
-            margin: 2em;
+            /* border: 1px solid; */
+            margin: 0 2em;
         }
         .pcontent-main {
             margin-right: 1em;
         }
         .pcontent-side {
+            height: fit-content;
             margin-left: 1em;
-            border-left: 2px solid;
+            border-left: 3px solid;
             display: flex;
             flex-direction: column;
             padding-left: 2em;
             padding-top: 1em;
             row-gap: 0.5em;
             div {
-                width: 70%;
                 padding-top: 0.5em;
-                
+                padding-bottom: 1em;
             }
             .pcontent-demo, .pcontent-time {
                 border-bottom: 1px solid;
             }
+            .demo-btn {
+                border-radius: 5px;
+                border: 2px solid;
+                font-size: 1em;
+                font-weight: bold;
+                padding: 0.3em 0.5em;
+                cursor: pointer;
+            }
+            .pcontent-tools {
+                p {
+                    text-wrap: nowrap;
+                    padding: 0.3em 0;
+                }
+            }
         }
         .span-title {
             font-weight: bolder;
-            font-size: 1.1em;
+            font-size: 1.2em;
         }
         .pcontent-summ {
+            padding-top: 1em;
             padding-bottom: 1.5em;
-            border-bottom: 1px solid;
+            /* border-bottom: 1px solid; */
             /* border: 1px solid; */
             p {
                 width: 85%;
